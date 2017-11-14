@@ -1,8 +1,9 @@
-This is the PHP client library for Google Identity Toolkit services.
+This is a sample PHP project that use PHP client library for Google Identity Toolkit services.
 
 Sample usage
-=====================
+============
 
+```php
 require_once __DIR__ . '/vendor/autoload.php';
 
 $jsonConfig = json_decode(file_get_contents("gitkit-server-config.json"), true);
@@ -52,4 +53,9 @@ function createNewUsers($hashKey) {
 
   return $allUsers;
 }
+```
 
+Read More
+---------
+
+See [google-api-php-client](https://github.com/google/google-api-php-client)
